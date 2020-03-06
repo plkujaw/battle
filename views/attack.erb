@@ -1,3 +1,11 @@
 <h2>
-  <%= @player_1_name %> attacked(!!) <%= @player_2_name %>
+  <%= $player_1.name %> attacked(!!) <%= $player_2.name %>
 </h2>
+
+<h1> "BRUTAL!! <%= $player_2.name %> got 10 DAMAGE! <%= $player_2.hit_points %> HP LEFT!"
+
+</h1>
+
+<form action="/play">
+  <input type="submit" name="Submit" value="OK!">
+</form>
